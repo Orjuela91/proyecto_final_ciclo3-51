@@ -28,6 +28,7 @@
     <Equipo/>
     
     <Footer/>
+    
   </div>
 </template>
 

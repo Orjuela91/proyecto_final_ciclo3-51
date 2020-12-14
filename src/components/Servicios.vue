@@ -6,55 +6,34 @@
 
     <div class="row" bg>
       <div
-        class="col"
-        style="
-          background-color: lavender;
-          margin-left: 1%;
-          margin-right: 0.5%;
-          margin-bottom: 0.5%;
-        "
+        class="col serviceColum"
       >
         <img
-          class="img-fluid mx-auto d-block"
+          class="img-fluid mx-auto d-block serviceImg"
           src="../assets/pyton.png"
           alt="Chania"
-          style="height: 200px"
         />
         <h5>PYTHON</h5>
         <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       </div>
       <div
-        class="col"
-        style="
-          background-color: lavender;
-          margin-left: 0.5%;
-          margin-right: 1%;
-          margin-bottom: 0.5%;
-        "
+        class="col serviceColum"
       >
         <img
-          class="img-fluid mx-auto d-block"
+          class="img-fluid mx-auto d-block serviceImg"
           src="../assets/java.png"
           alt="Chania"
-          style="height: 200px"
         />
         <h5>JAVA</h5>
         <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       </div>
       <div
-        class="col"
-        style="
-          background-color: lavender;
-          margin-left: 0.5%;
-          margin-right: 1%;
-          margin-bottom: 0.5%;
-        "
+        class="col serviceColum"
       >
         <img
-          class="img-fluid mx-auto d-block"
+          class="img-fluid mx-auto d-block serviceImg"
           src="../assets/sql.png"
           alt="Chania"
-          style="height: 200px"
         />
         <h5>SQL</h5>
         <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
@@ -64,6 +43,8 @@
 </template>
 
 <script>
+import "../assets/css/servicios.css";
+
 export default {
   name: "Servicios",
   props: ["services"],
