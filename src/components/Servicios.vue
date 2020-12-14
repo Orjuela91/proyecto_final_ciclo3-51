@@ -25,7 +25,7 @@
           alt="Chania"
         />
         <h5>JAVA</h5>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <p>Curso de java </p>
       </div>
       <div
         class="col serviceColum"
