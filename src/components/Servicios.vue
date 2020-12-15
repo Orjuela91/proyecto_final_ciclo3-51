@@ -8,7 +8,6 @@
 
       <ServiceCard :service="service1"/>
       <ServiceCard :service="service2"/>
-      <ServiceCard :service="service2"/>
 
       <div
         class="col serviceColum"
