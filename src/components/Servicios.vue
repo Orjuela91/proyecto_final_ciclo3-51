@@ -5,7 +5,6 @@
     </div>
 
     <div class="row" bg>
-
       <ServiceCard :service="service1"/>
       <ServiceCard :service="service2"/>
 
