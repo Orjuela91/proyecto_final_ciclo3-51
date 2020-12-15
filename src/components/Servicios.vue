@@ -8,19 +8,9 @@
 
       <ServiceCard :service="service1"/>
       <ServiceCard :service="service2"/>
-      <ServiceCard :service="service2"/>
+      <ServiceCard :service="service3"/>
 
-      <div
-        class="col serviceColum"
-      >
-        <img
-          class="img-fluid mx-auto d-block serviceImg"
-          src="../assets/sql.png"
-          alt="Chania"
-        />
-        <h5>SQL</h5>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      </div>
+     
     </div>
   </div>
 </template>
@@ -29,7 +19,9 @@
 import ServiceCard from './ServiceCard.vue';
 import Python from '../assets/pyton.png';
 import Java from '../assets/java.png';
+import MySQL from '../assets/sql.png'
 import "../assets/css/servicios.css";
+
 
 export default {
   name: "Servicios",
@@ -48,6 +40,11 @@ export default {
         name: "java props",
         description: "Some text about me in culpa qui officia deserunt mollit anim.. java props ",
         image: Java
+      },
+      service3: {
+        name: "MySQL props",
+        description: "Some text about me in culpa qui officia deserunt mollit anim.. MySQL props ",
+        image: MySQL
       }
     };
   },
