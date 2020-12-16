@@ -1,9 +1,8 @@
 <template>
   <div>
     <div class="container-fluid1" style="text-align: center;">
-      <div class="col" style="text-align: center; margin-top: 5%">
-        <b> </b>
-        <h1 style="font-size: 50px; text-align: center; font-family: verdana; ">
+      <div class="col" style="text-align: center;">
+        <h1 style="font-size: 50px; text-align: center; font-family: verdana;margin-top:10%">
           <b>Noticias Tecnológicas</b>
         </h1>
       </div>

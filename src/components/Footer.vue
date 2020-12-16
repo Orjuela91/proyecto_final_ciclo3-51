@@ -5,15 +5,30 @@
       <!-- Grid row -->
       <div class="row">
         <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
+        <div class="col">
           <!-- Content -->
-          <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-            sapiente sint, nulla, nihil repudiandae commodi voluptatibus
-            corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
-            harum esse fugiat. Itaque, culpa?
-          </p>
+
+          <div class="footer-copyright text-center py-3">
+            <div id="recuadros_articulo_13383" class="col">
+              <div class="recuadro">
+                <h4
+                  class="titulo title-pill title-pill-secondary arrow text-uppercase aid-150236 cid-645"
+                >
+                  <a href="/portal/Secciones/Mision-TIC-2022/"
+                    >Conoce la Misión TIC</a
+                  >
+                </h4>
+                <h6 class="abstract mt-4 pb-5 aid-150236 cid-645">
+                  La Misión TIC 2022 es un programa liderado por el Gobierno del
+                  Presidente Iván Duque con un gran objetivo:  formar 100.000
+                  jóvenes y adultos colombianos en programación, para enfrentar
+                  los desafíos de la Cuarta Revolución Industrial. En esta
+                  misión, mujeres y hombres serán elegidos y formados para ser
+                  parte de la aventura que propulsará el mundo hacia adelante.
+                </h6>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- Grid column -->
 
@@ -47,8 +62,10 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">
-      © 2020 Copyright:
-      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+      Enlace a nuestro Repositorio:
+      <a href="https://github.com/Orjuela91/proyecto_final_ciclo3-51"
+        >ir a GitHub</a
+      >
     </div>
     <!-- Copyright -->
   </footer>

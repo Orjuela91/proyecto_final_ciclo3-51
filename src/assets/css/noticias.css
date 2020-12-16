@@ -1,5 +1,5 @@
 .newsColum {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(240, 240, 240);
     margin: 2%;
     flex-wrap: wrap
     
@@ -24,6 +24,7 @@
 }
 
 .container-fluid1{
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(240, 240, 240);
+    
 
 }
