@@ -1,6 +1,6 @@
 <template>
   <div class="jumbotron text-center footer" >
-    <p>probando el footer</p>
+    <p>probando el foot</p>
   </div>
 </template>
 
