@@ -4,13 +4,11 @@
       <h2>NUESTROS SERVICIOS</h2>
     </div>
 
-    <div class="row" bg>
-
+    <div class="row">
       <ServiceCard :service="service1"/>
       <ServiceCard :service="service2"/>
       <ServiceCard :service="service3"/>
-
-     
+   
     </div>
   </div>
 </template>
