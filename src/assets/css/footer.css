@@ -4,6 +4,11 @@
     
 }
 
+.footer-copyright2 {
+    color: #fff;
+
+}
+
 .title-pill {
     position: relative;
     display: inline-block;
@@ -17,6 +22,14 @@
     background-color: #f3416e;
 }
 
+.title-pill-secondary2 {
+    color: #fff;
+    background-color: #6ab0f1;
+}
+
 .title-pill-secondary a {
     color: #fff;
 }
+
+
+
