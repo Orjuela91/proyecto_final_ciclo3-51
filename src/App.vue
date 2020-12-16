@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid bg-light">
+  <div class="container-fluid bg-white">
     <nav
       class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end"
     >

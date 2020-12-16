@@ -1,15 +1,16 @@
 <template>
   <div class="col serviceColum">
     <img
-      class="img-fluid mx-auto d-block serviceImg  "
+      class="img-fluid mx-auto d-block serviceImg "
       :src="this.image"
-      alt="Chania"
+      alt="Servicio"
     />
-    <h5>{{this.name}}</h5>
-    <p>{{this.description}}</p>
-    <span>Ingresa al curso!! <a :href="this.myUrl" target="blank">aquí! </a></span>
+    <h2 style="text-align: center;">{{this.name}}</h2>
+    <h5 style="text-align: justify;">{{this.description}}</h5>
+    <h6 style="text-align: center;">Ingresa al curso <a :href="this.myUrl" target="blank"><b>aquí</b> </a></h6>
     
   </div>
+  
 </template>
 
 <script>

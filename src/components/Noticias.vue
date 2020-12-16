@@ -1,17 +1,22 @@
 <template>
   <div>
-    <div class="container-fluid" style="text-align: center; margin: 3%">
-      <h2>NOTICIAS</h2>
-    </div>
+    <div class="container-fluid1" style="text-align: center;">
+      <div class="col" style="text-align: center; margin-top: 5%">
+        <b> </b>
+        <h1 style="font-size: 50px; text-align: center; font-family: verdana; ">
+          <b>Noticias Tecnológicas</b>
+        </h1>
+      </div>
 
-    <div class="row" bg v-if="this.news">
-      <NewsCard :News="this.news[0]" />
-      <NewsCard :News="this.news[1]" />
-    </div>
+      <div class="row" v-if="this.news">
+        <NewsCard :News="this.news[0]" />
+        <NewsCard :News="this.news[1]" />
+      </div>
 
-    <div class="row" bg v-if="this.news">
-      <NewsCard :News="this.news[2]" />
-      <NewsCard :News="this.news[3]" />
+      <div class="row" v-if="this.news">
+        <NewsCard :News="this.news[2]" />
+        <NewsCard :News="this.news[3]" />
+      </div>
     </div>
   </div>
 </template>
@@ -26,20 +31,20 @@ export default {
   components: {
     NewsCard: NewsCard,
   },
-  data(){ 
+  data() {
     return {
       news: null,
     };
   },
-  created () {
-     var url =
+  created() {
+    var url =
       "http://newsapi.org/v2/top-headlines?country=co&category=technology&" +
       "apiKey=5906a69cc8a74e448d4ff1df3e1da6ca";
     axios.get(url).then((res) => {
       this.news = res.data.articles;
-      console.log("this.news",this.news[0]);
+      console.log("this.news", this.news[0]);
     });
-    console.log("beforeCreate",this.news);
+    console.log("beforeCreate", this.news);
   },
 };
 </script>
