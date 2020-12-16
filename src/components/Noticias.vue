@@ -33,8 +33,7 @@ export default {
   },
   created () {
      var url =
-      "http://newsapi.org/v2/top-headlines?" +
-      "country=us&" +
+      "http://newsapi.org/v2/top-headlines?country=co&category=technology&" +
       "apiKey=5906a69cc8a74e448d4ff1df3e1da6ca";
     axios.get(url).then((res) => {
       this.news = res.data.articles;
