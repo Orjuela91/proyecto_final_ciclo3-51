@@ -1,13 +1,31 @@
 .newsColum {
+    width:50px;
     background-color: lavender;
     margin-left: 1%;
     margin-right: 0.5%;
     margin-bottom: 0.5%;
+    flex-wrap: wrap
+    
 }
 
-.text {
-    color: red;
-    
+.newstittle {
+    text-align: center;
+    text-size-adjust: 10;
+}
 
+.imagenNew{
+    width: 100%;
+    transition: all 0.5s ease;
+    padding: 0 0 5% 0; 
+
+}
+
+.imagenNew:hover{
+	transform: scale(0.95);
+	border-radius: 10px;
+	
+}
+
+.textnew {
 
 }

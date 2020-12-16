@@ -1,11 +1,13 @@
 <template>
-  <div class="col col-lg-5 newsColum">
-    <h3>{{ this.title }}</h3>
-    <p>{{ this.description }}</p>
-    
-    <img :src="this.imagen" alt="imagennew">
-    <span>Ver fuente <a :href="this.url" target="blank">aquí </a></span>
-  </div>
+    <div class="col col-lg-5 newsColum" style="text-align: center; padding: 2%; width:50%">
+      <h4 class= "newstittle">{{ this.title }}</h4>
+      <p>{{ this.description }}</p>
+      <a :href="this.url" target="blank"><img class="imagenNew" :src="this.imagen" alt="imagennew"></a>
+
+      <a :href="this.url" target="blank"><button type="button" class="btn btn-info"><span>Ver fuente </span></button></a>
+      
+    </div>
+  
 </template>
 <script>
 export default {
