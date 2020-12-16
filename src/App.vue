@@ -8,13 +8,13 @@
           <a class="nav-link" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
+          <a class="nav-link" href="#Servicios">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Noticas</a>
+          <a class="nav-link" href="#Noticias">Noticas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">our Team</a>
+          <a class="nav-link" href="#Servicios">our Team</a>
         </li>
       </ul>
     </nav>
