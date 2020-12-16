@@ -2,7 +2,8 @@
   <div class="col col-lg-5 newsColum">
     <h3>{{ this.title }}</h3>
     <p>{{ this.description }}</p>
-    <p>hola</p>
+    
+    <img :src="this.imagen" alt="imagennew">
     <span>Ver fuente <a :href="this.url" target="blank">aquí </a></span>
   </div>
 </template>
@@ -15,6 +16,7 @@ export default {
       title: "",
       description: "",
       url: "#",
+      imagen: "",
     };
   },
   created() {
@@ -22,6 +24,8 @@ export default {
     this.title = this.News.title;
     this.description = this.News.description;
     this.url = this.News.url;
+    this.imagen= this.News.urlToImage;
+
   },
 };
 </script>
