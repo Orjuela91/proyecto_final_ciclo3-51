@@ -45,7 +45,7 @@ export default {
         
       },
       service3: {
-        name: "MySQL props",
+        name: "Curso MySQL",
         description: "MySQL es un sistema de gestión de bases de datos relacional, es considerada como la base de datos de código abierto más popular del mundo. Cuenta con licencia pública, y licencia comercial.",
         image: MySQL,
         myUrl: 'https://edutin.com/curso-de-mysql-4303',
