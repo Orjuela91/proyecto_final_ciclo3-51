@@ -32,19 +32,25 @@ export default {
   data() {
     return {
       service1: {
-        name: "Python props",
-        description: "Some text about me in culpa qui officia deserunt mollit anim.. props ",
+        name: "Curso Python",
+        description: " Python es un lenguaje de programación multiparadigma, lo cual significa que soporta Orientación a Objetos, Programación Imperativa y Programación Funcional.", 
         image: Python,
+        myUrl: 'https://codigofacilito.com/cursos/Python',
+        
+       
       },
       service2: {
-        name: "java props",
-        description: "Some text about me in culpa qui officia deserunt mollit anim.. java props ",
-        image: Java
+        name: "Curso Java",
+        description: "Java es uno de los lenguajes de programación más populares desde el 2012. Java está  presente tanto en computadores, consolas de videojuegos, dispositivos móviles y hasta en la internet.",
+        image: Java,
+        myUrl: 'https://codigofacilito.com/cursos/JAVA',
+        
       },
       service3: {
         name: "MySQL props",
-        description: "Some text about me in culpa qui officia deserunt mollit anim.. MySQL props ",
-        image: MySQL
+        description: "MySQL es un sistema de gestión de bases de datos relacional, es considerada como la base de datos de código abierto más popular del mundo. Cuenta con licencia pública, y licencia comercial.",
+        image: MySQL,
+        myUrl: 'https://edutin.com/curso-de-mysql-4303',
       }
     };
   },
