@@ -1,12 +1,14 @@
 <template>
   <div class="col serviceColum">
     <img
-      class="img-fluid mx-auto d-block serviceImg"
+      class="img-fluid mx-auto d-block serviceImg  "
       :src="this.image"
       alt="Chania"
     />
     <h5>{{this.name}}</h5>
     <p>{{this.description}}</p>
+    <span>Ingresa al curso!! <a :href="this.myUrl" target="blank">aquí! </a></span>
+    
   </div>
 </template>
 
@@ -18,13 +20,15 @@ export default {
       return{
           name: "",
           description: "",
-          image: ""
+          image: "",
+          myUrl: "",
       }
   },
   created(){
     this.name = this.service.name;
     this.description = this.service.description;
     this.image = this.service.image;
+    this.myUrl = this.service.myUrl;
   }
 
 };
